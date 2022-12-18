@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#submit {
+  width: 100px;
+  height: 30px;
+}
+
+.done {
+  /* position: absolute; */
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
+.done:hover {
+  border: ridge !important;
+}
+
+.list {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 92% auto;
+  row-gap: 20px;
+}
